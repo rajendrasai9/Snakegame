@@ -1,0 +1,42 @@
+body{
+  margin: auto;
+  padding: auto;
+}
+body {
+  background-image: url('bg.jpg'); /* Replace with the path to your image */
+  background-size: cover; /* This will cover the entire viewport */
+  background-position: center; /* Center the background image */
+  background-repeat: no-repeat; /* Don't repeat the background image */
+}
+.h1,.h2{
+  margin: auto;
+  padding: auto;
+  text-align:center;
+}
+
+#canvas{
+  margin: auto;
+  margin-top: 50px;
+  padding : auto;
+  display: flex;
+}
+.h3{
+  align-items: center;
+  display: flex;
+  margin: auto;
+  padding: auto;
+  font-weight : 200;
+
+}
+#replay{
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  font-weight : 200;
+  width: 70px;
+  align-self: center;
+  justify-content: center;
+  background-color: #ff6c3c;
+  border-radius : 5px;
+  border-width: 0;
+}
